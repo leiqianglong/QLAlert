@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TakePhoneController">
+            <connections>
+                <outlet property="iv" destination="4ko-OI-GSm" id="W8S-uF-G0L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4ko-OI-GSm">
+                    <rect key="frame" x="30" y="84" width="354" height="354"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4ko-OI-GSm" secondAttribute="height" multiplier="1:1" id="ge4-rB-9YR"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="903-8P-4ko">
+                    <rect key="frame" x="50" y="760" width="314" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="B3N-PW-Vem"/>
+                    </constraints>
+                    <state key="normal" title="选图"/>
+                    <connections>
+                        <action selector="choosePic:" destination="-1" eventType="touchUpInside" id="rG1-kE-Psu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="903-8P-4ko" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="FaS-PE-Bsr"/>
+                <constraint firstItem="4ko-OI-GSm" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="KMb-eq-RLt"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="903-8P-4ko" secondAttribute="trailing" constant="50" id="VEL-8d-2Yu"/>
+                <constraint firstItem="4ko-OI-GSm" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="WlU-sg-i0a"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="4ko-OI-GSm" secondAttribute="trailing" constant="30" id="aUd-5b-AFT"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="903-8P-4ko" secondAttribute="bottom" constant="52" id="w4o-AL-toU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-177" y="128"/>
+        </view>
+    </objects>
+</document>

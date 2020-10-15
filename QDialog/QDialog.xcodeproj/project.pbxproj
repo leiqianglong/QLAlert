@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8B7348C2537F45B000B555F /* FQPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7348B2537F45B000B555F /* FQPhotoAlbum.m */; };
+		B8B734902537F497000B555F /* TakePhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7348E2537F497000B555F /* TakePhoneController.m */; };
+		B8B734912537F497000B555F /* TakePhoneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7348F2537F497000B555F /* TakePhoneController.xib */; };
+		B8B7349D2537F8EC000B555F /* ASProgressPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B734992537F8EC000B555F /* ASProgressPopUpView.m */; };
+		B8B7349E2537F8EC000B555F /* ASPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7349C2537F8EC000B555F /* ASPopUpView.m */; };
+		B8B734A22537FADB000B555F /* DiscreteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B734A02537FADB000B555F /* DiscreteController.m */; };
+		B8B734A32537FADB000B555F /* DiscreteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B734A12537FADB000B555F /* DiscreteController.xib */; };
 		B8E8418124FF85DF00286848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8418024FF85DF00286848 /* AppDelegate.m */; };
 		B8E8418724FF85DF00286848 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8418624FF85DF00286848 /* ViewController.m */; };
 		B8E8418A24FF85DF00286848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E8418824FF85DF00286848 /* Main.storyboard */; };
@@ -86,6 +93,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8B7348A2537F45B000B555F /* FQPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQPhotoAlbum.h; sourceTree = "<group>"; };
+		B8B7348B2537F45B000B555F /* FQPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQPhotoAlbum.m; sourceTree = "<group>"; };
+		B8B7348D2537F497000B555F /* TakePhoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePhoneController.h; sourceTree = "<group>"; };
+		B8B7348E2537F497000B555F /* TakePhoneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePhoneController.m; sourceTree = "<group>"; };
+		B8B7348F2537F497000B555F /* TakePhoneController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TakePhoneController.xib; sourceTree = "<group>"; };
+		B8B734992537F8EC000B555F /* ASProgressPopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASProgressPopUpView.m; sourceTree = "<group>"; };
+		B8B7349A2537F8EC000B555F /* ASPopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPopUpView.h; sourceTree = "<group>"; };
+		B8B7349B2537F8EC000B555F /* ASProgressPopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASProgressPopUpView.h; sourceTree = "<group>"; };
+		B8B7349C2537F8EC000B555F /* ASPopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPopUpView.m; sourceTree = "<group>"; };
+		B8B7349F2537FADB000B555F /* DiscreteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscreteController.h; sourceTree = "<group>"; };
+		B8B734A02537FADB000B555F /* DiscreteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscreteController.m; sourceTree = "<group>"; };
+		B8B734A12537FADB000B555F /* DiscreteController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscreteController.xib; sourceTree = "<group>"; };
 		B8E8417C24FF85DF00286848 /* QDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8417F24FF85DF00286848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8E8418024FF85DF00286848 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -240,7 +259,7 @@
 		B8E842852500931C00286848 /* TabbarMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarMenuVC.h; sourceTree = "<group>"; };
 		B8E842862500931C00286848 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
 		B8E842A2250093B900286848 /* HomeDemoVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeDemoVc.h; sourceTree = "<group>"; };
-		B8E842A3250093B900286848 /* HomeDemoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDemoVc.m; sourceTree = "<group>"; };
+		B8E842A3250093B900286848 /* HomeDemoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDemoVc.m; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +273,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8B734882537F446000B555F /* 相册选择图片和拍照 */ = {
+			isa = PBXGroup;
+			children = (
+				B8B734892537F45B000B555F /* FQPhotoAlbum */,
+				B8B7348D2537F497000B555F /* TakePhoneController.h */,
+				B8B7348E2537F497000B555F /* TakePhoneController.m */,
+				B8B7348F2537F497000B555F /* TakePhoneController.xib */,
+			);
+			path = "相册选择图片和拍照";
+			sourceTree = "<group>";
+		};
+		B8B734892537F45B000B555F /* FQPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7348A2537F45B000B555F /* FQPhotoAlbum.h */,
+				B8B7348B2537F45B000B555F /* FQPhotoAlbum.m */,
+			);
+			path = FQPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		B8B734922537F768000B555F /* 动态进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				B8B734982537F8EC000B555F /* ASProgressPopUpView */,
+				B8B7349F2537FADB000B555F /* DiscreteController.h */,
+				B8B734A02537FADB000B555F /* DiscreteController.m */,
+				B8B734A12537FADB000B555F /* DiscreteController.xib */,
+			);
+			path = "动态进度条";
+			sourceTree = "<group>";
+		};
+		B8B734982537F8EC000B555F /* ASProgressPopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				B8B734992537F8EC000B555F /* ASProgressPopUpView.m */,
+				B8B7349A2537F8EC000B555F /* ASPopUpView.h */,
+				B8B7349B2537F8EC000B555F /* ASProgressPopUpView.h */,
+				B8B7349C2537F8EC000B555F /* ASPopUpView.m */,
+			);
+			path = ASProgressPopUpView;
+			sourceTree = "<group>";
+		};
 		B8E8417324FF85DF00286848 = {
 			isa = PBXGroup;
 			children = (
@@ -581,6 +642,8 @@
 		B8E8423A250092F800286848 /* Demo示例 */ = {
 			isa = PBXGroup;
 			children = (
+				B8B734922537F768000B555F /* 动态进度条 */,
+				B8B734882537F446000B555F /* 相册选择图片和拍照 */,
 				B8E8425F2500931C00286848 /* 编辑弹窗 */,
 				B8E842412500931B00286848 /* 倒计时弹窗 */,
 				B8E8424A2500931B00286848 /* 地区选择 */,
@@ -864,9 +927,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B734A32537FADB000B555F /* DiscreteController.xib in Resources */,
 				B8E8418F24FF85E200286848 /* LaunchScreen.storyboard in Resources */,
 				B8E8418C24FF85E200286848 /* Assets.xcassets in Resources */,
 				B8E841F824FF862200286848 /* WMZDialog.bundle in Resources */,
+				B8B734912537F497000B555F /* TakePhoneController.xib in Resources */,
 				B8E8418A24FF85DF00286848 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -927,7 +992,9 @@
 				B8E8422224FF863600286848 /* MASCompositeConstraint.m in Sources */,
 				B8E8422924FF863600286848 /* MASViewAttribute.m in Sources */,
 				B8E8429E2500931C00286848 /* PresentVC.m in Sources */,
+				B8B734902537F497000B555F /* TakePhoneController.m in Sources */,
 				B8E841FE24FF862200286848 /* WMZDialogAnimation.m in Sources */,
+				B8B7349D2537F8EC000B555F /* ASProgressPopUpView.m in Sources */,
 				B8E8420524FF862200286848 /* WMZDialog+Share.m in Sources */,
 				B8E842922500931C00286848 /* PayVC.m in Sources */,
 				B8E841F124FF862200286848 /* WMZDialog+PopView.m in Sources */,
@@ -943,10 +1010,13 @@
 				B8E841FA24FF862200286848 /* WMZDialogShareView.m in Sources */,
 				B8E841FC24FF862200286848 /* WMZDialogTableView.m in Sources */,
 				B8E8428F2500931C00286848 /* NormalVC.m in Sources */,
+				B8B734A22537FADB000B555F /* DiscreteController.m in Sources */,
 				B8E8423925008C6D00286848 /* QLDialog+Toast.m in Sources */,
 				B8E842902500931C00286848 /* DownVC.m in Sources */,
+				B8B7348C2537F45B000B555F /* FQPhotoAlbum.m in Sources */,
 				B8E841EB24FF862200286848 /* WMZDialog+Loading.m in Sources */,
 				B8E842942500931C00286848 /* CollectionViewPopDemo.m in Sources */,
+				B8B7349E2537F8EC000B555F /* ASPopUpView.m in Sources */,
 				B8E8422124FF863600286848 /* ViewController+MASAdditions.m in Sources */,
 				B8E841EA24FF862200286848 /* WMZDialog+NaviMenu.m in Sources */,
 				B8E8429B2500931C00286848 /* ShareVC.m in Sources */,

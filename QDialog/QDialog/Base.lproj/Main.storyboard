@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17504.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dt9-W8-1qq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dt9-W8-1qq">
                                 <rect key="frame" x="30" y="64" width="120" height="55"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.69803921570000005" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -27,9 +29,9 @@
                                     <action selector="showlog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFW-Xn-nkn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoD-xg-rMs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoD-xg-rMs">
                                 <rect key="frame" x="30" y="149" width="104.5" height="40"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="w86-Jo-OgW"/>
                                 </constraints>
@@ -40,9 +42,9 @@
                                     <action selector="operationState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="man-bU-dSz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaF-xm-7N8">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaF-xm-7N8">
                                 <rect key="frame" x="154.5" y="149" width="105" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <state key="normal" title="操作成功">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -50,7 +52,7 @@
                                     <action selector="operationState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xFH-Bk-Vqy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppb-fc-RyS">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppb-fc-RyS">
                                 <rect key="frame" x="279.5" y="149" width="104.5" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.4176685678356164" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="操作失败">
@@ -60,9 +62,9 @@
                                     <action selector="operationState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xXB-pz-xLN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZ3-DE-6ib">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZ3-DE-6ib">
                                 <rect key="frame" x="30" y="225" width="104.5" height="40"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="wrJ-fP-Pwc"/>
                                 </constraints>
@@ -73,7 +75,7 @@
                                     <action selector="toastOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sDe-ii-MBG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjC-w4-Ua8">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjC-w4-Ua8">
                                 <rect key="frame" x="154.5" y="225" width="105" height="40"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="toast图文">
@@ -83,7 +85,7 @@
                                     <action selector="toastOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fMP-lW-DUU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z78-lh-DDa">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z78-lh-DDa">
                                 <rect key="frame" x="279.5" y="225" width="104.5" height="40"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.69803921570000005" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="toast图片">
@@ -95,7 +97,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgZ-BZ-nv0">
                                 <rect key="frame" x="30" y="204" width="354" height="1"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="iw6-4Q-ZI3"/>
                                 </constraints>
@@ -105,7 +107,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82v-b7-yWi">
                                 <rect key="frame" x="30" y="280" width="354" height="1"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Peu-68-1Ro"/>
                                 </constraints>
@@ -113,7 +115,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNX-fS-Xs8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNX-fS-Xs8">
                                 <rect key="frame" x="180" y="64" width="120" height="55"/>
                                 <color key="backgroundColor" red="0.78614010455890415" green="0.77900256849315064" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -127,22 +129,95 @@
                                     <action selector="demoshili:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9en-FR-u9q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPj-cJ-wON">
+                                <rect key="frame" x="20" y="301" width="138" height="40"/>
+                                <color key="backgroundColor" red="0.59543557363013699" green="0.70895761986301364" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LJa-59-424"/>
+                                    <constraint firstAttribute="width" constant="138" id="oMj-kf-HnS"/>
+                                </constraints>
+                                <state key="normal" title="选择图片和拍照">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseImageAndTakePhone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fRN-hL-ese"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mi9-bd-Yrl">
+                                <rect key="frame" x="10" y="361" width="394" height="1"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="SIo-Oq-p8u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3X-Ga-IB9">
+                                <rect key="frame" x="20" y="377" width="138" height="40"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="uCC-Fc-bxk"/>
+                                    <constraint firstAttribute="width" constant="138" id="x6n-3b-Lsb"/>
+                                </constraints>
+                                <state key="normal" title="动态进度条">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="progress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1M-aU-bv1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb0-zi-nek">
+                                <rect key="frame" x="10" y="432" width="394" height="1"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="dJO-Fl-cub"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWf-dx-3CF">
+                                <rect key="frame" x="187" y="301" width="138" height="40"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="THy-KV-vo6"/>
+                                    <constraint firstAttribute="width" constant="138" id="Ts8-xv-TbC"/>
+                                </constraints>
+                                <state key="normal" title="相册多选">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="mutipleChooseImages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lox-Vr-BN6"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ppb-fc-RyS" firstAttribute="height" secondItem="QoD-xg-rMs" secondAttribute="height" id="0An-oh-OhV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SgZ-BZ-nv0" secondAttribute="trailing" constant="30" id="0fr-4j-ILf"/>
+                            <constraint firstItem="yPj-cJ-wON" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1Su-9i-TLP"/>
                             <constraint firstItem="rjC-w4-Ua8" firstAttribute="width" secondItem="pZ3-DE-6ib" secondAttribute="width" id="2FN-eh-rld"/>
                             <constraint firstItem="dt9-W8-1qq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="49P-gU-Avu"/>
+                            <constraint firstAttribute="trailing" secondItem="Mi9-bd-Yrl" secondAttribute="trailing" constant="10" id="994-KX-OpC"/>
                             <constraint firstItem="CNX-fS-Xs8" firstAttribute="leading" secondItem="dt9-W8-1qq" secondAttribute="trailing" constant="30" id="Ch2-Md-HXd"/>
                             <constraint firstItem="CNX-fS-Xs8" firstAttribute="centerY" secondItem="dt9-W8-1qq" secondAttribute="centerY" id="Diq-os-yMc"/>
+                            <constraint firstItem="Eb0-zi-nek" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="FJU-db-l8e"/>
                             <constraint firstItem="rjC-w4-Ua8" firstAttribute="leading" secondItem="pZ3-DE-6ib" secondAttribute="trailing" constant="20" id="GLq-LY-CSN"/>
+                            <constraint firstItem="Mi9-bd-Yrl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="I2P-ZM-tBp"/>
+                            <constraint firstItem="Eb0-zi-nek" firstAttribute="top" secondItem="X3X-Ga-IB9" secondAttribute="bottom" constant="15" id="Ino-lx-bif"/>
                             <constraint firstItem="82v-b7-yWi" firstAttribute="top" secondItem="pZ3-DE-6ib" secondAttribute="bottom" constant="15" id="Jk0-w9-qjK"/>
                             <constraint firstItem="aaF-xm-7N8" firstAttribute="leading" secondItem="QoD-xg-rMs" secondAttribute="trailing" constant="20" id="MEG-ot-hsm"/>
                             <constraint firstItem="z78-lh-DDa" firstAttribute="centerY" secondItem="pZ3-DE-6ib" secondAttribute="centerY" id="MoE-89-hlS"/>
+                            <constraint firstItem="uWf-dx-3CF" firstAttribute="centerY" secondItem="yPj-cJ-wON" secondAttribute="centerY" id="Odz-QE-w0E"/>
+                            <constraint firstItem="yPj-cJ-wON" firstAttribute="top" secondItem="82v-b7-yWi" secondAttribute="bottom" constant="20" id="OzS-Nr-qWA"/>
                             <constraint firstItem="z78-lh-DDa" firstAttribute="width" secondItem="pZ3-DE-6ib" secondAttribute="width" id="P1e-VD-VKa"/>
+                            <constraint firstAttribute="trailing" secondItem="Eb0-zi-nek" secondAttribute="trailing" constant="10" id="U8W-cW-LbA"/>
                             <constraint firstItem="aaF-xm-7N8" firstAttribute="height" secondItem="QoD-xg-rMs" secondAttribute="height" id="UPT-mz-qpV"/>
                             <constraint firstItem="z78-lh-DDa" firstAttribute="height" secondItem="pZ3-DE-6ib" secondAttribute="height" id="V73-ku-NqO"/>
+                            <constraint firstItem="X3X-Ga-IB9" firstAttribute="top" secondItem="Mi9-bd-Yrl" secondAttribute="bottom" constant="15" id="VgP-4Z-2Vz"/>
+                            <constraint firstItem="uWf-dx-3CF" firstAttribute="leading" secondItem="yPj-cJ-wON" secondAttribute="trailing" constant="29" id="Xmb-W1-qKP"/>
                             <constraint firstItem="rjC-w4-Ua8" firstAttribute="centerY" secondItem="pZ3-DE-6ib" secondAttribute="centerY" id="aO4-gb-gfB"/>
                             <constraint firstItem="ppb-fc-RyS" firstAttribute="leading" secondItem="aaF-xm-7N8" secondAttribute="trailing" constant="20" id="b6L-O7-Yv0"/>
                             <constraint firstItem="dt9-W8-1qq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="bvj-sA-H9h"/>
@@ -151,6 +226,8 @@
                             <constraint firstItem="ppb-fc-RyS" firstAttribute="centerY" secondItem="QoD-xg-rMs" secondAttribute="centerY" id="fC8-KB-njR"/>
                             <constraint firstItem="ppb-fc-RyS" firstAttribute="width" secondItem="QoD-xg-rMs" secondAttribute="width" id="fwS-dw-KwT"/>
                             <constraint firstItem="QoD-xg-rMs" firstAttribute="top" secondItem="dt9-W8-1qq" secondAttribute="bottom" constant="30" id="gE7-wj-8HJ"/>
+                            <constraint firstItem="Mi9-bd-Yrl" firstAttribute="top" secondItem="yPj-cJ-wON" secondAttribute="bottom" constant="20" id="gSU-TJ-x2U"/>
+                            <constraint firstItem="X3X-Ga-IB9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="k3x-wQ-Dmo"/>
                             <constraint firstItem="SgZ-BZ-nv0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="miX-WH-HWm"/>
                             <constraint firstItem="aaF-xm-7N8" firstAttribute="centerY" secondItem="QoD-xg-rMs" secondAttribute="centerY" id="nK8-ZH-yVE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ppb-fc-RyS" secondAttribute="trailing" constant="30" id="pdd-FD-rht"/>
@@ -163,7 +240,6 @@
                             <constraint firstItem="aaF-xm-7N8" firstAttribute="width" secondItem="QoD-xg-rMs" secondAttribute="width" id="xzp-M7-7pH"/>
                             <constraint firstItem="z78-lh-DDa" firstAttribute="leading" secondItem="rjC-w4-Ua8" secondAttribute="trailing" constant="20" id="yEZ-bB-qzZ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -171,4 +247,36 @@
             <point key="canvasLocation" x="156.52173913043478" y="4.6875"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

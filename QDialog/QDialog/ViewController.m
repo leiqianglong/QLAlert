@@ -13,6 +13,9 @@
 #import "QLDialog+QLPayDailog.h"
 #import "QLDialog+OpeationState.h"
 #import "QLDialog+Toast.h"
+#import "TakePhoneController.h"
+#import "DiscreteController.h"
+
 @interface ViewController ()
 @property(nonatomic,strong)NSArray *dataArr;
 @end
@@ -79,4 +82,23 @@
     nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
+
+//相册选择图片和拍照
+- (IBAction)chooseImageAndTakePhone:(id)sender {
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[TakePhoneController new]];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:nil];
+}
+
+- (IBAction)progress:(id)sender {
+    
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[DiscreteController new]];
+     nav.modalPresentationStyle = UIModalPresentationFullScreen;
+     [self presentViewController:nav animated:YES completion:nil];
+}
+- (IBAction)mutipleChooseImages:(id)sender {
+    
+
+}
+
 @end
