@@ -15,7 +15,9 @@
 #import "QLDialog+Toast.h"
 #import "TakePhoneController.h"
 #import "DiscreteController.h"
-
+#import "MutilTakePhViewController.h"
+#import "FaceIDViewController.h"
+#import "ExhibitionCtr.h"
 @interface ViewController ()
 @property(nonatomic,strong)NSArray *dataArr;
 @end
@@ -78,27 +80,30 @@
 }
 //demo示例
 - (IBAction)demoshili:(id)sender {
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[HomeDemoVc new]];
-    nav.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:nav animated:YES completion:nil];
+    [self presentVc:[HomeDemoVc new]];
 }
 
 //相册选择图片和拍照
 - (IBAction)chooseImageAndTakePhone:(id)sender {
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[TakePhoneController new]];
-    nav.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:nav animated:YES completion:nil];
+    [self presentVc:[TakePhoneController new]];
 }
 
 - (IBAction)progress:(id)sender {
-    
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[DiscreteController new]];
-     nav.modalPresentationStyle = UIModalPresentationFullScreen;
-     [self presentViewController:nav animated:YES completion:nil];
+    [self presentVc:[DiscreteController new]];
 }
 - (IBAction)mutipleChooseImages:(id)sender {
-    
-
+    [self presentVc:[MutilTakePhViewController new]];
 }
-
+- (IBAction)faceidClick:(id)sender {
+    [self presentVc:[FaceIDViewController new]];
+}
+//加密算法
+- (IBAction)ExhibitionClick:(id)sender {
+    [self presentVc:[ExhibitionCtr new]];
+}
+-(void)presentVc:(UIViewController *)vc{
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:nil];
+}
 @end

@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81D616F253981A400253F02 /* MutilTakePhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D616D253981A400253F02 /* MutilTakePhViewController.m */; };
+		B81D6170253981A400253F02 /* MutilTakePhViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81D616E253981A400253F02 /* MutilTakePhViewController.xib */; };
+		B81D6189253981D100253F02 /* ZBWPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D617A253981D100253F02 /* ZBWPhotoModel.m */; };
+		B81D618A253981D100253F02 /* ZBWAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D617E253981D100253F02 /* ZBWAlbumView.m */; };
+		B81D618B253981D100253F02 /* ZBWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D617F253981D100253F02 /* ZBWButton.m */; };
+		B81D618C253981D100253F02 /* ZBWAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6180253981D100253F02 /* ZBWAlbumCollectionViewCell.m */; };
+		B81D618D253981D100253F02 /* ZBWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6181253981D100253F02 /* ZBWAlbumViewController.m */; };
+		B81D618E253981D100253F02 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6182253981D100253F02 /* UIColor+Custom.m */; };
+		B81D618F253981D100253F02 /* ZBWAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6183253981D100253F02 /* ZBWAlbumTableViewCell.m */; };
+		B81D6190253981D100253F02 /* ZBWPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6184253981D100253F02 /* ZBWPhotosManager.m */; };
+		B81D6191253981D100253F02 /* ZBWPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6185253981D100253F02 /* ZBWPhotoManager.m */; };
+		B81D6192253981D100253F02 /* ZBWAlbumTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6186253981D100253F02 /* ZBWAlbumTableView.m */; };
+		B81D6193253981D100253F02 /* ZBWAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D6187253981D100253F02 /* ZBWAlbumModel.m */; };
+		B81D61A82539857A00253F02 /* MHD_FingerPrintVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D619A2539857A00253F02 /* MHD_FingerPrintVerify.m */; };
+		B81D61A92539857A00253F02 /* UITextField+MHD_TextFieldCommonSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D619D2539857A00253F02 /* UITextField+MHD_TextFieldCommonSetting.m */; };
+		B81D61AA2539857A00253F02 /* UILabel+MHD_LabelCommonSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61A12539857A00253F02 /* UILabel+MHD_LabelCommonSetting.m */; };
+		B81D61AB2539857A00253F02 /* UIButton+MHD_ButtonCommonSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61A42539857A00253F02 /* UIButton+MHD_ButtonCommonSetting.m */; };
+		B81D61AC2539857A00253F02 /* UIView+MHD_ViewCommonSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61A72539857A00253F02 /* UIView+MHD_ViewCommonSetting.m */; };
+		B81D61B0253985B800253F02 /* FaceIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61AF253985B800253F02 /* FaceIDViewController.m */; };
+		B81D61B82539908800253F02 /* ExhibitionCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61B72539908800253F02 /* ExhibitionCtr.m */; };
+		B81D61BE253990AB00253F02 /* ExhibitionControllerDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61BC253990AA00253F02 /* ExhibitionControllerDetail.m */; };
+		B81D61BF253990AB00253F02 /* ExhibitionControllerDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81D61BD253990AB00253F02 /* ExhibitionControllerDetail.xib */; };
+		B81D61D92539935900253F02 /* PGGCryptoDES.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61C22539935900253F02 /* PGGCryptoDES.m */; };
+		B81D61DA2539935900253F02 /* PGGCryptoHMACMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61C62539935900253F02 /* PGGCryptoHMACMD5.m */; };
+		B81D61DB2539935900253F02 /* PGGCryptoRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61C82539935900253F02 /* PGGCryptoRSA.m */; };
+		B81D61DC2539935900253F02 /* PGGCryptoMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61CC2539935900253F02 /* PGGCryptoMD5.m */; };
+		B81D61DD2539935900253F02 /* PGGCryptoHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61CF2539935900253F02 /* PGGCryptoHMAC.m */; };
+		B81D61DE2539935900253F02 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61D52539935900253F02 /* GTMBase64.m */; };
+		B81D61DF2539935900253F02 /* PGGCryptoAES.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61D62539935900253F02 /* PGGCryptoAES.m */; };
+		B81D61E02539935900253F02 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61D72539935900253F02 /* NSData+AES.m */; };
+		B81D61E52539936000253F02 /* PGGCryptoSha1.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61E42539936000253F02 /* PGGCryptoSha1.m */; };
+		B81D61E92539960800253F02 /* HeaderPch.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61E82539960800253F02 /* HeaderPch.m */; };
+		B81D61EE2539971500253F02 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = B81D61EC2539971400253F02 /* public_key.der */; };
+		B81D61EF2539971500253F02 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = B81D61ED2539971500253F02 /* private_key.p12 */; };
+		B81D61F3253997D700253F02 /* KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61F2253997D700253F02 /* KViewController.m */; };
 		B8B7348C2537F45B000B555F /* FQPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7348B2537F45B000B555F /* FQPhotoAlbum.m */; };
 		B8B734902537F497000B555F /* TakePhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7348E2537F497000B555F /* TakePhoneController.m */; };
 		B8B734912537F497000B555F /* TakePhoneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7348F2537F497000B555F /* TakePhoneController.xib */; };
@@ -93,6 +128,73 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B81D616C253981A400253F02 /* MutilTakePhViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutilTakePhViewController.h; sourceTree = "<group>"; };
+		B81D616D253981A400253F02 /* MutilTakePhViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutilTakePhViewController.m; sourceTree = "<group>"; };
+		B81D616E253981A400253F02 /* MutilTakePhViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MutilTakePhViewController.xib; sourceTree = "<group>"; };
+		B81D6173253981D100253F02 /* ZBWAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWAlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		B81D6174253981D100253F02 /* ZBWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWButton.h; sourceTree = "<group>"; };
+		B81D6175253981D100253F02 /* ZBWAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWAlbumView.h; sourceTree = "<group>"; };
+		B81D6176253981D100253F02 /* ZBWAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWAlbumTableViewCell.h; sourceTree = "<group>"; };
+		B81D6177253981D100253F02 /* UIColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Custom.h"; sourceTree = "<group>"; };
+		B81D6178253981D100253F02 /* ZBWAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWAlbumViewController.h; sourceTree = "<group>"; };
+		B81D6179253981D100253F02 /* ZBWPhotosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWPhotosManager.h; sourceTree = "<group>"; };
+		B81D617A253981D100253F02 /* ZBWPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWPhotoModel.m; sourceTree = "<group>"; };
+		B81D617B253981D100253F02 /* ZBWAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWAlbumModel.h; sourceTree = "<group>"; };
+		B81D617C253981D100253F02 /* ZBWAlbumTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWAlbumTableView.h; sourceTree = "<group>"; };
+		B81D617D253981D100253F02 /* ZBWPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWPhotoManager.h; sourceTree = "<group>"; };
+		B81D617E253981D100253F02 /* ZBWAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWAlbumView.m; sourceTree = "<group>"; };
+		B81D617F253981D100253F02 /* ZBWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWButton.m; sourceTree = "<group>"; };
+		B81D6180253981D100253F02 /* ZBWAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		B81D6181253981D100253F02 /* ZBWAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWAlbumViewController.m; sourceTree = "<group>"; };
+		B81D6182253981D100253F02 /* UIColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Custom.m"; sourceTree = "<group>"; };
+		B81D6183253981D100253F02 /* ZBWAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWAlbumTableViewCell.m; sourceTree = "<group>"; };
+		B81D6184253981D100253F02 /* ZBWPhotosManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWPhotosManager.m; sourceTree = "<group>"; };
+		B81D6185253981D100253F02 /* ZBWPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWPhotoManager.m; sourceTree = "<group>"; };
+		B81D6186253981D100253F02 /* ZBWAlbumTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWAlbumTableView.m; sourceTree = "<group>"; };
+		B81D6187253981D100253F02 /* ZBWAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWAlbumModel.m; sourceTree = "<group>"; };
+		B81D6188253981D100253F02 /* ZBWPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWPhotoModel.h; sourceTree = "<group>"; };
+		B81D61992539857A00253F02 /* MHD_FingerPrintVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHD_FingerPrintVerify.h; sourceTree = "<group>"; };
+		B81D619A2539857A00253F02 /* MHD_FingerPrintVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHD_FingerPrintVerify.m; sourceTree = "<group>"; };
+		B81D619D2539857A00253F02 /* UITextField+MHD_TextFieldCommonSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MHD_TextFieldCommonSetting.m"; sourceTree = "<group>"; };
+		B81D619E2539857A00253F02 /* UITextField+MHD_TextFieldCommonSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MHD_TextFieldCommonSetting.h"; sourceTree = "<group>"; };
+		B81D61A02539857A00253F02 /* UILabel+MHD_LabelCommonSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MHD_LabelCommonSetting.h"; sourceTree = "<group>"; };
+		B81D61A12539857A00253F02 /* UILabel+MHD_LabelCommonSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MHD_LabelCommonSetting.m"; sourceTree = "<group>"; };
+		B81D61A32539857A00253F02 /* UIButton+MHD_ButtonCommonSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MHD_ButtonCommonSetting.h"; sourceTree = "<group>"; };
+		B81D61A42539857A00253F02 /* UIButton+MHD_ButtonCommonSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MHD_ButtonCommonSetting.m"; sourceTree = "<group>"; };
+		B81D61A62539857A00253F02 /* UIView+MHD_ViewCommonSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MHD_ViewCommonSetting.h"; sourceTree = "<group>"; };
+		B81D61A72539857A00253F02 /* UIView+MHD_ViewCommonSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MHD_ViewCommonSetting.m"; sourceTree = "<group>"; };
+		B81D61AE253985B800253F02 /* FaceIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceIDViewController.h; sourceTree = "<group>"; };
+		B81D61AF253985B800253F02 /* FaceIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceIDViewController.m; sourceTree = "<group>"; };
+		B81D61B62539908800253F02 /* ExhibitionCtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExhibitionCtr.h; sourceTree = "<group>"; };
+		B81D61B72539908800253F02 /* ExhibitionCtr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExhibitionCtr.m; sourceTree = "<group>"; };
+		B81D61BB253990AA00253F02 /* ExhibitionControllerDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExhibitionControllerDetail.h; sourceTree = "<group>"; };
+		B81D61BC253990AA00253F02 /* ExhibitionControllerDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExhibitionControllerDetail.m; sourceTree = "<group>"; };
+		B81D61BD253990AB00253F02 /* ExhibitionControllerDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExhibitionControllerDetail.xib; sourceTree = "<group>"; };
+		B81D61C22539935900253F02 /* PGGCryptoDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoDES.m; sourceTree = "<group>"; };
+		B81D61C32539935900253F02 /* PGGCryptoDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGCryptoDES.h; sourceTree = "<group>"; };
+		B81D61C52539935900253F02 /* PGGCryptoHMACMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGCryptoHMACMD5.h; sourceTree = "<group>"; };
+		B81D61C62539935900253F02 /* PGGCryptoHMACMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoHMACMD5.m; sourceTree = "<group>"; };
+		B81D61C82539935900253F02 /* PGGCryptoRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoRSA.m; sourceTree = "<group>"; };
+		B81D61C92539935900253F02 /* PGGCryptoRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGCryptoRSA.h; sourceTree = "<group>"; };
+		B81D61CB2539935900253F02 /* PGGCryptoMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGCryptoMD5.h; sourceTree = "<group>"; };
+		B81D61CC2539935900253F02 /* PGGCryptoMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoMD5.m; sourceTree = "<group>"; };
+		B81D61CE2539935900253F02 /* PGGCryptoHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGCryptoHMAC.h; sourceTree = "<group>"; };
+		B81D61CF2539935900253F02 /* PGGCryptoHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoHMAC.m; sourceTree = "<group>"; };
+		B81D61D12539935900253F02 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		B81D61D32539935900253F02 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		B81D61D42539935900253F02 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		B81D61D52539935900253F02 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		B81D61D62539935900253F02 /* PGGCryptoAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoAES.m; sourceTree = "<group>"; };
+		B81D61D72539935900253F02 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		B81D61D82539935900253F02 /* PGGCryptoAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGCryptoAES.h; sourceTree = "<group>"; };
+		B81D61E32539936000253F02 /* PGGCryptoSha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGCryptoSha1.h; sourceTree = "<group>"; };
+		B81D61E42539936000253F02 /* PGGCryptoSha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoSha1.m; sourceTree = "<group>"; };
+		B81D61E72539960800253F02 /* HeaderPch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderPch.h; sourceTree = "<group>"; };
+		B81D61E82539960800253F02 /* HeaderPch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderPch.m; sourceTree = "<group>"; };
+		B81D61EC2539971400253F02 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		B81D61ED2539971500253F02 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		B81D61F1253997D700253F02 /* KViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KViewController.h; sourceTree = "<group>"; };
+		B81D61F2253997D700253F02 /* KViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KViewController.m; sourceTree = "<group>"; };
 		B8B7348A2537F45B000B555F /* FQPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQPhotoAlbum.h; sourceTree = "<group>"; };
 		B8B7348B2537F45B000B555F /* FQPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQPhotoAlbum.m; sourceTree = "<group>"; };
 		B8B7348D2537F497000B555F /* TakePhoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePhoneController.h; sourceTree = "<group>"; };
@@ -273,13 +375,212 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B81D6172253981D100253F02 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				B81D6173253981D100253F02 /* ZBWAlbumCollectionViewCell.h */,
+				B81D6174253981D100253F02 /* ZBWButton.h */,
+				B81D6175253981D100253F02 /* ZBWAlbumView.h */,
+				B81D6176253981D100253F02 /* ZBWAlbumTableViewCell.h */,
+				B81D6177253981D100253F02 /* UIColor+Custom.h */,
+				B81D6178253981D100253F02 /* ZBWAlbumViewController.h */,
+				B81D6179253981D100253F02 /* ZBWPhotosManager.h */,
+				B81D617A253981D100253F02 /* ZBWPhotoModel.m */,
+				B81D617B253981D100253F02 /* ZBWAlbumModel.h */,
+				B81D617C253981D100253F02 /* ZBWAlbumTableView.h */,
+				B81D617D253981D100253F02 /* ZBWPhotoManager.h */,
+				B81D617E253981D100253F02 /* ZBWAlbumView.m */,
+				B81D617F253981D100253F02 /* ZBWButton.m */,
+				B81D6180253981D100253F02 /* ZBWAlbumCollectionViewCell.m */,
+				B81D6181253981D100253F02 /* ZBWAlbumViewController.m */,
+				B81D6182253981D100253F02 /* UIColor+Custom.m */,
+				B81D6183253981D100253F02 /* ZBWAlbumTableViewCell.m */,
+				B81D6184253981D100253F02 /* ZBWPhotosManager.m */,
+				B81D6185253981D100253F02 /* ZBWPhotoManager.m */,
+				B81D6186253981D100253F02 /* ZBWAlbumTableView.m */,
+				B81D6187253981D100253F02 /* ZBWAlbumModel.m */,
+				B81D6188253981D100253F02 /* ZBWPhotoModel.h */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		B81D61972539853400253F02 /* 指纹faceID验证 */ = {
+			isa = PBXGroup;
+			children = (
+				B81D619B2539857A00253F02 /* MHD_Category */,
+				B81D61982539857A00253F02 /* MHD_FingerPrintVerify */,
+				B81D61AE253985B800253F02 /* FaceIDViewController.h */,
+				B81D61AF253985B800253F02 /* FaceIDViewController.m */,
+			);
+			path = "指纹faceID验证";
+			sourceTree = "<group>";
+		};
+		B81D61982539857A00253F02 /* MHD_FingerPrintVerify */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61992539857A00253F02 /* MHD_FingerPrintVerify.h */,
+				B81D619A2539857A00253F02 /* MHD_FingerPrintVerify.m */,
+			);
+			path = MHD_FingerPrintVerify;
+			sourceTree = "<group>";
+		};
+		B81D619B2539857A00253F02 /* MHD_Category */ = {
+			isa = PBXGroup;
+			children = (
+				B81D619C2539857A00253F02 /* MHD_UITextfield */,
+				B81D619F2539857A00253F02 /* MHD_UILabel */,
+				B81D61A22539857A00253F02 /* MHD_UIButton */,
+				B81D61A52539857A00253F02 /* MHD_UIView */,
+			);
+			path = MHD_Category;
+			sourceTree = "<group>";
+		};
+		B81D619C2539857A00253F02 /* MHD_UITextfield */ = {
+			isa = PBXGroup;
+			children = (
+				B81D619D2539857A00253F02 /* UITextField+MHD_TextFieldCommonSetting.m */,
+				B81D619E2539857A00253F02 /* UITextField+MHD_TextFieldCommonSetting.h */,
+			);
+			path = MHD_UITextfield;
+			sourceTree = "<group>";
+		};
+		B81D619F2539857A00253F02 /* MHD_UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61A02539857A00253F02 /* UILabel+MHD_LabelCommonSetting.h */,
+				B81D61A12539857A00253F02 /* UILabel+MHD_LabelCommonSetting.m */,
+			);
+			path = MHD_UILabel;
+			sourceTree = "<group>";
+		};
+		B81D61A22539857A00253F02 /* MHD_UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61A32539857A00253F02 /* UIButton+MHD_ButtonCommonSetting.h */,
+				B81D61A42539857A00253F02 /* UIButton+MHD_ButtonCommonSetting.m */,
+			);
+			path = MHD_UIButton;
+			sourceTree = "<group>";
+		};
+		B81D61A52539857A00253F02 /* MHD_UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61A62539857A00253F02 /* UIView+MHD_ViewCommonSetting.h */,
+				B81D61A72539857A00253F02 /* UIView+MHD_ViewCommonSetting.m */,
+			);
+			path = MHD_UIView;
+			sourceTree = "<group>";
+		};
+		B81D61B52539903100253F02 /* MD5_SHA1_HMAC_AES_RSA加密 */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61ED2539971500253F02 /* private_key.p12 */,
+				B81D61EC2539971400253F02 /* public_key.der */,
+				B81D61E72539960800253F02 /* HeaderPch.h */,
+				B81D61E82539960800253F02 /* HeaderPch.m */,
+				B81D61E22539936000253F02 /* PGGSha1 */,
+				B81D61D02539935900253F02 /* PGGAES */,
+				B81D61C12539935900253F02 /* PGGDES */,
+				B81D61CD2539935900253F02 /* PGGHMAC */,
+				B81D61C42539935900253F02 /* PGGHMAC_MD5 */,
+				B81D61CA2539935900253F02 /* PGGMD5 */,
+				B81D61C72539935900253F02 /* PGGRSA */,
+				B81D61B62539908800253F02 /* ExhibitionCtr.h */,
+				B81D61B72539908800253F02 /* ExhibitionCtr.m */,
+				B81D61BB253990AA00253F02 /* ExhibitionControllerDetail.h */,
+				B81D61BC253990AA00253F02 /* ExhibitionControllerDetail.m */,
+				B81D61BD253990AB00253F02 /* ExhibitionControllerDetail.xib */,
+			);
+			path = "MD5_SHA1_HMAC_AES_RSA加密";
+			sourceTree = "<group>";
+		};
+		B81D61C12539935900253F02 /* PGGDES */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61C22539935900253F02 /* PGGCryptoDES.m */,
+				B81D61C32539935900253F02 /* PGGCryptoDES.h */,
+			);
+			path = PGGDES;
+			sourceTree = "<group>";
+		};
+		B81D61C42539935900253F02 /* PGGHMAC_MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61C52539935900253F02 /* PGGCryptoHMACMD5.h */,
+				B81D61C62539935900253F02 /* PGGCryptoHMACMD5.m */,
+			);
+			path = PGGHMAC_MD5;
+			sourceTree = "<group>";
+		};
+		B81D61C72539935900253F02 /* PGGRSA */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61C82539935900253F02 /* PGGCryptoRSA.m */,
+				B81D61C92539935900253F02 /* PGGCryptoRSA.h */,
+			);
+			path = PGGRSA;
+			sourceTree = "<group>";
+		};
+		B81D61CA2539935900253F02 /* PGGMD5 */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61CB2539935900253F02 /* PGGCryptoMD5.h */,
+				B81D61CC2539935900253F02 /* PGGCryptoMD5.m */,
+			);
+			path = PGGMD5;
+			sourceTree = "<group>";
+		};
+		B81D61CD2539935900253F02 /* PGGHMAC */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61CE2539935900253F02 /* PGGCryptoHMAC.h */,
+				B81D61CF2539935900253F02 /* PGGCryptoHMAC.m */,
+			);
+			path = PGGHMAC;
+			sourceTree = "<group>";
+		};
+		B81D61D02539935900253F02 /* PGGAES */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61D12539935900253F02 /* NSData+AES.h */,
+				B81D61D22539935900253F02 /* GTMBase64 */,
+				B81D61D62539935900253F02 /* PGGCryptoAES.m */,
+				B81D61D72539935900253F02 /* NSData+AES.m */,
+				B81D61D82539935900253F02 /* PGGCryptoAES.h */,
+			);
+			path = PGGAES;
+			sourceTree = "<group>";
+		};
+		B81D61D22539935900253F02 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61D32539935900253F02 /* GTMBase64.h */,
+				B81D61D42539935900253F02 /* GTMDefines.h */,
+				B81D61D52539935900253F02 /* GTMBase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		B81D61E22539936000253F02 /* PGGSha1 */ = {
+			isa = PBXGroup;
+			children = (
+				B81D61E32539936000253F02 /* PGGCryptoSha1.h */,
+				B81D61E42539936000253F02 /* PGGCryptoSha1.m */,
+			);
+			path = PGGSha1;
+			sourceTree = "<group>";
+		};
 		B8B734882537F446000B555F /* 相册选择图片和拍照 */ = {
 			isa = PBXGroup;
 			children = (
+				B81D6172253981D100253F02 /* Album */,
 				B8B734892537F45B000B555F /* FQPhotoAlbum */,
 				B8B7348D2537F497000B555F /* TakePhoneController.h */,
 				B8B7348E2537F497000B555F /* TakePhoneController.m */,
 				B8B7348F2537F497000B555F /* TakePhoneController.xib */,
+				B81D616C253981A400253F02 /* MutilTakePhViewController.h */,
+				B81D616D253981A400253F02 /* MutilTakePhViewController.m */,
+				B81D616E253981A400253F02 /* MutilTakePhViewController.xib */,
 			);
 			path = "相册选择图片和拍照";
 			sourceTree = "<group>";
@@ -340,6 +641,8 @@
 				B8E8419824FF862200286848 /* WMZDialog */,
 				B8E8417F24FF85DF00286848 /* AppDelegate.h */,
 				B8E8418024FF85DF00286848 /* AppDelegate.m */,
+				B81D61F1253997D700253F02 /* KViewController.h */,
+				B81D61F2253997D700253F02 /* KViewController.m */,
 				B8E8418524FF85DF00286848 /* ViewController.h */,
 				B8E8418624FF85DF00286848 /* ViewController.m */,
 				B8E8418824FF85DF00286848 /* Main.storyboard */,
@@ -642,6 +945,8 @@
 		B8E8423A250092F800286848 /* Demo示例 */ = {
 			isa = PBXGroup;
 			children = (
+				B81D61B52539903100253F02 /* MD5_SHA1_HMAC_AES_RSA加密 */,
+				B81D61972539853400253F02 /* 指纹faceID验证 */,
 				B8B734922537F768000B555F /* 动态进度条 */,
 				B8B734882537F446000B555F /* 相册选择图片和拍照 */,
 				B8E8425F2500931C00286848 /* 编辑弹窗 */,
@@ -928,11 +1233,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B734A32537FADB000B555F /* DiscreteController.xib in Resources */,
+				B81D61BF253990AB00253F02 /* ExhibitionControllerDetail.xib in Resources */,
 				B8E8418F24FF85E200286848 /* LaunchScreen.storyboard in Resources */,
+				B81D61EF2539971500253F02 /* private_key.p12 in Resources */,
 				B8E8418C24FF85E200286848 /* Assets.xcassets in Resources */,
 				B8E841F824FF862200286848 /* WMZDialog.bundle in Resources */,
+				B81D61EE2539971500253F02 /* public_key.der in Resources */,
 				B8B734912537F497000B555F /* TakePhoneController.xib in Resources */,
 				B8E8418A24FF85DF00286848 /* Main.storyboard in Resources */,
+				B81D6170253981A400253F02 /* MutilTakePhViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,21 +1258,30 @@
 				B8E8428C2500931C00286848 /* LocationVC.m in Sources */,
 				B8E841F224FF862200286848 /* WMZDialog+Pay.m in Sources */,
 				B8E841FB24FF862200286848 /* WMZDialogTool.m in Sources */,
+				B81D61F3253997D700253F02 /* KViewController.m in Sources */,
+				B81D61B82539908800253F02 /* ExhibitionCtr.m in Sources */,
 				B8E8420224FF862200286848 /* WMZDialog+Sheet.m in Sources */,
 				B8E8429D2500931C00286848 /* BaseVC.m in Sources */,
+				B81D61E92539960800253F02 /* HeaderPch.m in Sources */,
+				B81D618A253981D100253F02 /* ZBWAlbumView.m in Sources */,
 				B8E841F924FF862200286848 /* WMZDialog+PickView.m in Sources */,
+				B81D618F253981D100253F02 /* ZBWAlbumTableViewCell.m in Sources */,
 				B8E8422324FF863600286848 /* MASConstraintMaker.m in Sources */,
 				B8E841F524FF862200286848 /* WMZDialog+time.m in Sources */,
 				B8E841ED24FF862200286848 /* WMZDialog+AutoDisappear.m in Sources */,
+				B81D61AA2539857A00253F02 /* UILabel+MHD_LabelCommonSetting.m in Sources */,
 				B8E8422624FF863600286848 /* View+MASAdditions.m in Sources */,
+				B81D61DF2539935900253F02 /* PGGCryptoAES.m in Sources */,
 				B8E841EE24FF862200286848 /* WMZDialog+Down.m in Sources */,
 				B8E8423024FF99B900286848 /* QLDialog.m in Sources */,
 				B8E8418724FF85DF00286848 /* ViewController.m in Sources */,
 				B8E841F424FF862200286848 /* CalanderModel.m in Sources */,
 				B8E842892500931C00286848 /* TimeVC.m in Sources */,
+				B81D6193253981D100253F02 /* ZBWAlbumModel.m in Sources */,
 				B8E842882500931C00286848 /* DateTimeVC.m in Sources */,
 				B8E8420424FF862200286848 /* WMZDiaLogBase.m in Sources */,
 				B8E8422024FF863600286848 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				B81D61DA2539935900253F02 /* PGGCryptoHMACMD5.m in Sources */,
 				B8E841F624FF862200286848 /* WMZDialog+MenusSelect.m in Sources */,
 				B8E8423624FF9DFD00286848 /* QLDialog+OpeationState.m in Sources */,
 				B8E841EF24FF862200286848 /* WMZDialog+Location.m in Sources */,
@@ -971,31 +1289,48 @@
 				B8E841FD24FF862200286848 /* NSDate+WMZCalendarDate.m in Sources */,
 				B8E842992500931C00286848 /* AutoDisappealVC.m in Sources */,
 				B8E8418124FF85DF00286848 /* AppDelegate.m in Sources */,
+				B81D61E02539935900253F02 /* NSData+AES.m in Sources */,
+				B81D61DB2539935900253F02 /* PGGCryptoRSA.m in Sources */,
 				B8E841F724FF862200286848 /* WMZDialog+CardPresent.m in Sources */,
 				B8E8429A2500931C00286848 /* SheetVC.m in Sources */,
 				B8E842952500931C00286848 /* ScrollViewPopDemo.m in Sources */,
 				B8E8428B2500931C00286848 /* AdvertisementVC.m in Sources */,
 				B8E841F024FF862200286848 /* WMZDialog+DatePicker.m in Sources */,
+				B81D618E253981D100253F02 /* UIColor+Custom.m in Sources */,
+				B81D61A92539857A00253F02 /* UITextField+MHD_TextFieldCommonSetting.m in Sources */,
 				B8E841EC24FF862200286848 /* WMZDialog+TabbarMenu.m in Sources */,
+				B81D6189253981D100253F02 /* ZBWPhotoModel.m in Sources */,
 				B8E842962500931C00286848 /* TableViewPopDemo.m in Sources */,
 				B8E8422524FF863600286848 /* NSArray+MASAdditions.m in Sources */,
 				B8E8419224FF85E200286848 /* main.m in Sources */,
 				B8E8420324FF862200286848 /* WMZDialog.m in Sources */,
 				B8E8429C2500931C00286848 /* MenusSelectVC.m in Sources */,
+				B81D61BE253990AB00253F02 /* ExhibitionControllerDetail.m in Sources */,
 				B8E842912500931C00286848 /* SelectVC.m in Sources */,
+				B81D61AC2539857A00253F02 /* UIView+MHD_ViewCommonSetting.m in Sources */,
+				B81D61E52539936000253F02 /* PGGCryptoSha1.m in Sources */,
 				B8E8422724FF863600286848 /* MASConstraint.m in Sources */,
 				B8E8428D2500931C00286848 /* NaviMenuVC.m in Sources */,
+				B81D618B253981D100253F02 /* ZBWButton.m in Sources */,
 				B8E8428A2500931C00286848 /* CustomVC.m in Sources */,
 				B8E842872500931C00286848 /* LoadingVC.m in Sources */,
 				B8E8420124FF862200286848 /* WMZDialog+Select.m in Sources */,
 				B8E841F324FF862200286848 /* WMZDialog+Calander.m in Sources */,
 				B8E8422224FF863600286848 /* MASCompositeConstraint.m in Sources */,
+				B81D61A82539857A00253F02 /* MHD_FingerPrintVerify.m in Sources */,
+				B81D618C253981D100253F02 /* ZBWAlbumCollectionViewCell.m in Sources */,
 				B8E8422924FF863600286848 /* MASViewAttribute.m in Sources */,
 				B8E8429E2500931C00286848 /* PresentVC.m in Sources */,
+				B81D61DC2539935900253F02 /* PGGCryptoMD5.m in Sources */,
 				B8B734902537F497000B555F /* TakePhoneController.m in Sources */,
 				B8E841FE24FF862200286848 /* WMZDialogAnimation.m in Sources */,
+				B81D616F253981A400253F02 /* MutilTakePhViewController.m in Sources */,
+				B81D6191253981D100253F02 /* ZBWPhotoManager.m in Sources */,
+				B81D61D92539935900253F02 /* PGGCryptoDES.m in Sources */,
+				B81D61AB2539857A00253F02 /* UIButton+MHD_ButtonCommonSetting.m in Sources */,
 				B8B7349D2537F8EC000B555F /* ASProgressPopUpView.m in Sources */,
 				B8E8420524FF862200286848 /* WMZDialog+Share.m in Sources */,
+				B81D6192253981D100253F02 /* ZBWAlbumTableView.m in Sources */,
 				B8E842922500931C00286848 /* PayVC.m in Sources */,
 				B8E841F124FF862200286848 /* WMZDialog+PopView.m in Sources */,
 				B8E8423324FF99E500286848 /* QLDialog+QLPayDailog.m in Sources */,
@@ -1004,9 +1339,13 @@
 				B8E842A12500931C00286848 /* TabbarMenuVC.m in Sources */,
 				B8E8422824FF863600286848 /* MASViewConstraint.m in Sources */,
 				B8E8429F2500931C00286848 /* PickVC.m in Sources */,
+				B81D618D253981D100253F02 /* ZBWAlbumViewController.m in Sources */,
 				B8E842972500931C00286848 /* PopVC.m in Sources */,
+				B81D61DD2539935900253F02 /* PGGCryptoHMAC.m in Sources */,
+				B81D6190253981D100253F02 /* ZBWPhotosManager.m in Sources */,
 				B8E8420024FF862200286848 /* WMZDialog+Advertisement.m in Sources */,
 				B8E8422424FF863600286848 /* MASLayoutConstraint.m in Sources */,
+				B81D61B0253985B800253F02 /* FaceIDViewController.m in Sources */,
 				B8E841FA24FF862200286848 /* WMZDialogShareView.m in Sources */,
 				B8E841FC24FF862200286848 /* WMZDialogTableView.m in Sources */,
 				B8E8428F2500931C00286848 /* NormalVC.m in Sources */,
@@ -1015,6 +1354,7 @@
 				B8E842902500931C00286848 /* DownVC.m in Sources */,
 				B8B7348C2537F45B000B555F /* FQPhotoAlbum.m in Sources */,
 				B8E841EB24FF862200286848 /* WMZDialog+Loading.m in Sources */,
+				B81D61DE2539935900253F02 /* GTMBase64.m in Sources */,
 				B8E842942500931C00286848 /* CollectionViewPopDemo.m in Sources */,
 				B8B7349E2537F8EC000B555F /* ASPopUpView.m in Sources */,
 				B8E8422124FF863600286848 /* ViewController+MASAdditions.m in Sources */,

@@ -27,7 +27,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"Discrete";
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:(UIBarButtonItemStyleDone) target:self action:@selector(closeViewCtr)];
+
     self.progressView1.font = [UIFont fontWithName:@"Futura-CondensedExtraBold" size:16];
     self.progressView1.popUpViewAnimatedColors = @[[UIColor redColor], [UIColor orangeColor], [UIColor greenColor]];
     self.progressView1.dataSource = self;
@@ -40,10 +40,6 @@
     [self.progressView1 showPopUpViewAnimated:YES];
     [self.progressView2 showPopUpViewAnimated:YES];
 }
--(void)closeViewCtr{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
 
 #pragma mark - IBActions
 

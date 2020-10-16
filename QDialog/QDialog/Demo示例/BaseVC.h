@@ -6,12 +6,12 @@
 //  Copyright © 2020 wmz. All rights reserved.
 //
 
-
+#import "KViewController.h"
 #import "WMZDialog.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BaseVC : UIViewController
+@interface BaseVC : KViewController
 @property(nonatomic,strong)NSArray *dataArr;
 @property(nonatomic,copy)NSString *name;
 -(void)action:(UIButton*)sender;

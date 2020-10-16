@@ -17,11 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:(UIBarButtonItemStyleDone) target:self action:@selector(closeViewCtr)];
+
 }
--(void)closeViewCtr{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
+
 - (IBAction)choosePic:(id)sender {
     
     if (!_photoAlbum) {

@@ -191,6 +191,35 @@
                                     <action selector="mutipleChooseImages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lox-Vr-BN6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZF-2h-cEv">
+                                <rect key="frame" x="187" y="377" width="138" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.68530607876712324" blue="0.78017979452054798" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="Xdw-YE-NdW"/>
+                                    <constraint firstAttribute="height" constant="40" id="a1X-yv-Fx0"/>
+                                </constraints>
+                                <state key="normal" title="指纹和FaceID">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="faceidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGJ-6R-QdM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxI-C5-5IF">
+                                <rect key="frame" x="21" y="447" width="106" height="40"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Jug-2W-XXn"/>
+                                    <constraint firstAttribute="width" constant="106" id="QMr-1j-TTc"/>
+                                </constraints>
+                                <state key="normal" title="加密算法">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="ExhibitionClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AZ1-OQ-r5h"/>
+                                    <action selector="faceidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pfz-Sh-rZi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -205,6 +234,7 @@
                             <constraint firstItem="CNX-fS-Xs8" firstAttribute="centerY" secondItem="dt9-W8-1qq" secondAttribute="centerY" id="Diq-os-yMc"/>
                             <constraint firstItem="Eb0-zi-nek" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="FJU-db-l8e"/>
                             <constraint firstItem="rjC-w4-Ua8" firstAttribute="leading" secondItem="pZ3-DE-6ib" secondAttribute="trailing" constant="20" id="GLq-LY-CSN"/>
+                            <constraint firstItem="YxI-C5-5IF" firstAttribute="top" secondItem="Eb0-zi-nek" secondAttribute="bottom" constant="14" id="Ga8-7h-Qrj"/>
                             <constraint firstItem="Mi9-bd-Yrl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="I2P-ZM-tBp"/>
                             <constraint firstItem="Eb0-zi-nek" firstAttribute="top" secondItem="X3X-Ga-IB9" secondAttribute="bottom" constant="15" id="Ino-lx-bif"/>
                             <constraint firstItem="82v-b7-yWi" firstAttribute="top" secondItem="pZ3-DE-6ib" secondAttribute="bottom" constant="15" id="Jk0-w9-qjK"/>
@@ -227,6 +257,7 @@
                             <constraint firstItem="ppb-fc-RyS" firstAttribute="width" secondItem="QoD-xg-rMs" secondAttribute="width" id="fwS-dw-KwT"/>
                             <constraint firstItem="QoD-xg-rMs" firstAttribute="top" secondItem="dt9-W8-1qq" secondAttribute="bottom" constant="30" id="gE7-wj-8HJ"/>
                             <constraint firstItem="Mi9-bd-Yrl" firstAttribute="top" secondItem="yPj-cJ-wON" secondAttribute="bottom" constant="20" id="gSU-TJ-x2U"/>
+                            <constraint firstItem="KZF-2h-cEv" firstAttribute="centerY" secondItem="X3X-Ga-IB9" secondAttribute="centerY" id="gpE-eu-mIt"/>
                             <constraint firstItem="X3X-Ga-IB9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="k3x-wQ-Dmo"/>
                             <constraint firstItem="SgZ-BZ-nv0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="miX-WH-HWm"/>
                             <constraint firstItem="aaF-xm-7N8" firstAttribute="centerY" secondItem="QoD-xg-rMs" secondAttribute="centerY" id="nK8-ZH-yVE"/>
@@ -235,16 +266,18 @@
                             <constraint firstItem="QoD-xg-rMs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="qVS-ZC-xdw"/>
                             <constraint firstItem="SgZ-BZ-nv0" firstAttribute="top" secondItem="QoD-xg-rMs" secondAttribute="bottom" constant="15" id="qby-cS-3AZ"/>
                             <constraint firstItem="pZ3-DE-6ib" firstAttribute="top" secondItem="SgZ-BZ-nv0" secondAttribute="bottom" constant="20" id="uH6-8k-tdV"/>
+                            <constraint firstItem="KZF-2h-cEv" firstAttribute="leading" secondItem="X3X-Ga-IB9" secondAttribute="trailing" constant="29" id="vA1-6E-njO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z78-lh-DDa" secondAttribute="trailing" constant="30" id="vZw-Cj-NRd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="82v-b7-yWi" secondAttribute="trailing" constant="30" id="xWn-gt-gSf"/>
                             <constraint firstItem="aaF-xm-7N8" firstAttribute="width" secondItem="QoD-xg-rMs" secondAttribute="width" id="xzp-M7-7pH"/>
                             <constraint firstItem="z78-lh-DDa" firstAttribute="leading" secondItem="rjC-w4-Ua8" secondAttribute="trailing" constant="20" id="yEZ-bB-qzZ"/>
+                            <constraint firstItem="YxI-C5-5IF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="zzT-wA-eyT"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156.52173913043478" y="4.6875"/>
+            <point key="canvasLocation" x="155.07246376811597" y="4.6875"/>
         </scene>
     </scenes>
     <resources>

@@ -173,11 +173,13 @@
 
 -(void)startChoose:(NSInteger)type{
     NSInteger sourceType = type;
-    self.picker = [[UIImagePickerController alloc] init];
-    self.picker.delegate = self;
-    self.picker.allowsEditing = YES;
-    self.picker.sourceType = sourceType;
-    [self.viewController presentViewController:self.picker animated:YES completion:nil];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.picker = [[UIImagePickerController alloc] init];
+        self.picker.delegate = self;
+        self.picker.allowsEditing = YES;
+        self.picker.sourceType = sourceType;
+        [self.viewController presentViewController:self.picker animated:YES completion:nil];
+    });
 }
 
 // 判断硬件是否支持拍照
