@@ -41,7 +41,7 @@ static NSData *base64_decode(NSString *str){
         policy = SecPolicyCreateBasicX509();
         if (policy) {
             if (SecTrustCreateWithCertificates((CFTypeRef)cert, policy, &trust) == noErr) {
-                SecTrustResultType result; 
+                SecTrustResultType result;
                 if (SecTrustEvaluate(trust, &result) == noErr) {
                     key = SecTrustCopyPublicKey(trust);
                 }

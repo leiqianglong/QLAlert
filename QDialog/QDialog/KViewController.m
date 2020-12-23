@@ -20,8 +20,13 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:(UIBarButtonItemStyleDone) target:self action:@selector(closeViewCtr)];
 }
 
--(void)closeViewCtr{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 
+-(void)closeViewCtr{
+    if (self.navigationController.viewControllers.count > 1) {
+        [self.navigationController popViewControllerAnimated:YES];
+    }else{
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+    
+}
 @end

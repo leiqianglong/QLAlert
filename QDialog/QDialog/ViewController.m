@@ -18,6 +18,7 @@
 #import "MutilTakePhViewController.h"
 #import "FaceIDViewController.h"
 #import "ExhibitionCtr.h"
+#import "DrawViewController.h"
 @interface ViewController ()
 @property(nonatomic,strong)NSArray *dataArr;
 @end
@@ -101,9 +102,106 @@
 - (IBAction)ExhibitionClick:(id)sender {
     [self presentVc:[ExhibitionCtr new]];
 }
+
+- (IBAction)DrawClick:(id)sender {
+    [self presentVc:[DrawViewController new]];
+
+}
+- (IBAction)imageCompress:(id)sender {
+    
+    UIImage *img = [UIImage imageNamed:@"miao.jpeg"];
+    NSData *imgData = [self compressImage:img toByte:1000*500];
+    NSString *savedImagePath = @"/Users/gongzhineng/Desktop/234.png";
+    [imgData writeToFile:savedImagePath atomically:YES];
+}
+
 -(void)presentVc:(UIViewController *)vc{
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
+
+#pragma mark - 压缩图片
+-(NSData *)compressImage:(UIImage *)image toByte:(NSUInteger)maxLength{
+    // Compress by quality
+    //重新绘制图片  防止ios11上出现 UIImageJPEGRepresentation 返回为nil的情况
+    image = [self scaleImage:image];
+    CGFloat compression = 1;
+    NSData *data = UIImageJPEGRepresentation(image, compression);
+    
+//    if (data.length < maxLength) return data;
+    
+    CGFloat max = 1;
+    CGFloat min = 0;
+    for (int i = 0; i < 6; ++i) {
+        compression = (max + min) / 2;
+        data = UIImageJPEGRepresentation(image, compression);
+        if (data.length < maxLength * 0.9) {
+            min = compression;
+        } else if (data.length > maxLength) {
+            max = compression;
+        } else {
+            break;
+        }
+    }
+    UIImage *resultImage = [UIImage imageWithData:data];
+    
+    if (data.length < maxLength) {
+        data = [self getImageData:resultImage cp:compression];
+        return data;
+    }
+    
+    // Compress by size
+    NSUInteger lastDataLength = 0;
+    while (data.length > maxLength && data.length != lastDataLength) {
+        lastDataLength = data.length;
+        data = [self getImageData:resultImage cp:compression];;
+    }
+    return data;
+}
+-(NSData *)getImageData:(UIImage *)resultImage cp:(CGFloat)compression{
+    CGFloat ratio = 0;
+    if (resultImage.size.width > 500.0) {
+        if (resultImage.size.width >= 500.0 && resultImage.size.width < 1000.0) {
+            ratio = 0.5;
+        }else if (resultImage.size.width >= 1000.0 && resultImage.size.width < 1500.0){
+            ratio = 0.3;
+        }else if (resultImage.size.width >= 1500.0 && resultImage.size.width < 2000.0){
+            ratio = 0.25;
+        }else if (resultImage.size.width >= 2000.0 && resultImage.size.width < 3000.0){
+            ratio = 0.2;
+        }else if (resultImage.size.width >= 3000.0){
+            ratio = 0.15;
+        }else{
+            ratio = 0.1;
+        }
+    }else{
+        ratio = 1.0;
+    }
+    CGSize size = CGSizeMake((NSUInteger)(resultImage.size.width * ratio),
+                             (NSUInteger)(resultImage.size.height * ratio));
+    UIGraphicsBeginImageContext(size);
+    [resultImage drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    resultImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return  UIImageJPEGRepresentation(resultImage, compression);
+}
+
+//重绘图片
+- (UIImage *)scaleImage:(UIImage *)image{
+    //确定压缩后的size
+    CGFloat scaleWidth = image.size.width;
+    CGFloat scaleHeight = image.size.height;
+    CGSize scaleSize = CGSizeMake(scaleWidth, scaleHeight);
+    //开启图形上下文
+    UIGraphicsBeginImageContext(scaleSize);
+    //绘制图片
+    [image drawInRect:CGRectMake(0, 0, scaleWidth, scaleHeight)];
+    //从图形上下文获取图片
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    //关闭图形上下文
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+
 @end

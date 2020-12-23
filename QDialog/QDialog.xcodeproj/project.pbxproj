@@ -42,6 +42,11 @@
 		B81D61EE2539971500253F02 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = B81D61EC2539971400253F02 /* public_key.der */; };
 		B81D61EF2539971500253F02 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = B81D61ED2539971500253F02 /* private_key.p12 */; };
 		B81D61F3253997D700253F02 /* KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D61F2253997D700253F02 /* KViewController.m */; };
+		B87BDE60254033FD00565173 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87BDE5F254033FD00565173 /* DrawViewController.m */; };
+		B87BDE642540364300565173 /* DrawBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87BDE632540364300565173 /* DrawBaseTableController.m */; };
+		B87BDE6A254037AB00565173 /* JiheController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87BDE69254037AB00565173 /* JiheController.m */; };
+		B87BDE6F25403AA500565173 /* JiheController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = B87BDE6E25403AA500565173 /* JiheController_1.m */; };
+		B87BDE7325403BC300565173 /* JIheOne_view.m in Sources */ = {isa = PBXBuildFile; fileRef = B87BDE7225403BC300565173 /* JIheOne_view.m */; };
 		B8B7348C2537F45B000B555F /* FQPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7348B2537F45B000B555F /* FQPhotoAlbum.m */; };
 		B8B734902537F497000B555F /* TakePhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7348E2537F497000B555F /* TakePhoneController.m */; };
 		B8B734912537F497000B555F /* TakePhoneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7348F2537F497000B555F /* TakePhoneController.xib */; };
@@ -49,6 +54,9 @@
 		B8B7349E2537F8EC000B555F /* ASPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7349C2537F8EC000B555F /* ASPopUpView.m */; };
 		B8B734A22537FADB000B555F /* DiscreteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B734A02537FADB000B555F /* DiscreteController.m */; };
 		B8B734A32537FADB000B555F /* DiscreteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B734A12537FADB000B555F /* DiscreteController.xib */; };
+		B8C4A8712563A802007E7CF4 /* yue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8C4A8702563A802007E7CF4 /* yue.jpg */; };
+		B8C4A87D2563A969007E7CF4 /* abc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8C4A87C2563A969007E7CF4 /* abc.jpeg */; };
+		B8C4A8802563B645007E7CF4 /* miao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8C4A87F2563B645007E7CF4 /* miao.jpeg */; };
 		B8E8418124FF85DF00286848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8418024FF85DF00286848 /* AppDelegate.m */; };
 		B8E8418724FF85DF00286848 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8418624FF85DF00286848 /* ViewController.m */; };
 		B8E8418A24FF85DF00286848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E8418824FF85DF00286848 /* Main.storyboard */; };
@@ -195,6 +203,16 @@
 		B81D61ED2539971500253F02 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
 		B81D61F1253997D700253F02 /* KViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KViewController.h; sourceTree = "<group>"; };
 		B81D61F2253997D700253F02 /* KViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KViewController.m; sourceTree = "<group>"; };
+		B87BDE5E254033FD00565173 /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		B87BDE5F254033FD00565173 /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		B87BDE622540364300565173 /* DrawBaseTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawBaseTableController.h; sourceTree = "<group>"; };
+		B87BDE632540364300565173 /* DrawBaseTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBaseTableController.m; sourceTree = "<group>"; };
+		B87BDE68254037AB00565173 /* JiheController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiheController.h; sourceTree = "<group>"; };
+		B87BDE69254037AB00565173 /* JiheController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiheController.m; sourceTree = "<group>"; };
+		B87BDE6D25403AA500565173 /* JiheController_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiheController_1.h; sourceTree = "<group>"; };
+		B87BDE6E25403AA500565173 /* JiheController_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiheController_1.m; sourceTree = "<group>"; };
+		B87BDE7125403BC300565173 /* JIheOne_view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JIheOne_view.h; sourceTree = "<group>"; };
+		B87BDE7225403BC300565173 /* JIheOne_view.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JIheOne_view.m; sourceTree = "<group>"; };
 		B8B7348A2537F45B000B555F /* FQPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQPhotoAlbum.h; sourceTree = "<group>"; };
 		B8B7348B2537F45B000B555F /* FQPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQPhotoAlbum.m; sourceTree = "<group>"; };
 		B8B7348D2537F497000B555F /* TakePhoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePhoneController.h; sourceTree = "<group>"; };
@@ -207,6 +225,9 @@
 		B8B7349F2537FADB000B555F /* DiscreteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscreteController.h; sourceTree = "<group>"; };
 		B8B734A02537FADB000B555F /* DiscreteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscreteController.m; sourceTree = "<group>"; };
 		B8B734A12537FADB000B555F /* DiscreteController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscreteController.xib; sourceTree = "<group>"; };
+		B8C4A8702563A802007E7CF4 /* yue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yue.jpg; sourceTree = "<group>"; };
+		B8C4A87C2563A969007E7CF4 /* abc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc.jpeg; sourceTree = "<group>"; };
+		B8C4A87F2563B645007E7CF4 /* miao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miao.jpeg; sourceTree = "<group>"; };
 		B8E8417C24FF85DF00286848 /* QDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8417F24FF85DF00286848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8E8418024FF85DF00286848 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -570,6 +591,31 @@
 			path = PGGSha1;
 			sourceTree = "<group>";
 		};
+		B87BDE55254031BF00565173 /* 绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				B87BDE622540364300565173 /* DrawBaseTableController.h */,
+				B87BDE632540364300565173 /* DrawBaseTableController.m */,
+				B87BDE5E254033FD00565173 /* DrawViewController.h */,
+				B87BDE5F254033FD00565173 /* DrawViewController.m */,
+				B87BDE672540378A00565173 /* 几何方法 */,
+			);
+			path = "绘图";
+			sourceTree = "<group>";
+		};
+		B87BDE672540378A00565173 /* 几何方法 */ = {
+			isa = PBXGroup;
+			children = (
+				B87BDE68254037AB00565173 /* JiheController.h */,
+				B87BDE69254037AB00565173 /* JiheController.m */,
+				B87BDE6D25403AA500565173 /* JiheController_1.h */,
+				B87BDE6E25403AA500565173 /* JiheController_1.m */,
+				B87BDE7125403BC300565173 /* JIheOne_view.h */,
+				B87BDE7225403BC300565173 /* JIheOne_view.m */,
+			);
+			path = "几何方法";
+			sourceTree = "<group>";
+		};
 		B8B734882537F446000B555F /* 相册选择图片和拍照 */ = {
 			isa = PBXGroup;
 			children = (
@@ -645,6 +691,9 @@
 				B81D61F2253997D700253F02 /* KViewController.m */,
 				B8E8418524FF85DF00286848 /* ViewController.h */,
 				B8E8418624FF85DF00286848 /* ViewController.m */,
+				B8C4A8702563A802007E7CF4 /* yue.jpg */,
+				B8C4A87C2563A969007E7CF4 /* abc.jpeg */,
+				B8C4A87F2563B645007E7CF4 /* miao.jpeg */,
 				B8E8418824FF85DF00286848 /* Main.storyboard */,
 				B8E8418B24FF85E200286848 /* Assets.xcassets */,
 				B8E8418D24FF85E200286848 /* LaunchScreen.storyboard */,
@@ -945,6 +994,7 @@
 		B8E8423A250092F800286848 /* Demo示例 */ = {
 			isa = PBXGroup;
 			children = (
+				B87BDE55254031BF00565173 /* 绘图 */,
 				B81D61B52539903100253F02 /* MD5_SHA1_HMAC_AES_RSA加密 */,
 				B81D61972539853400253F02 /* 指纹faceID验证 */,
 				B8B734922537F768000B555F /* 动态进度条 */,
@@ -1234,12 +1284,15 @@
 			files = (
 				B8B734A32537FADB000B555F /* DiscreteController.xib in Resources */,
 				B81D61BF253990AB00253F02 /* ExhibitionControllerDetail.xib in Resources */,
+				B8C4A87D2563A969007E7CF4 /* abc.jpeg in Resources */,
 				B8E8418F24FF85E200286848 /* LaunchScreen.storyboard in Resources */,
 				B81D61EF2539971500253F02 /* private_key.p12 in Resources */,
 				B8E8418C24FF85E200286848 /* Assets.xcassets in Resources */,
 				B8E841F824FF862200286848 /* WMZDialog.bundle in Resources */,
+				B8C4A8802563B645007E7CF4 /* miao.jpeg in Resources */,
 				B81D61EE2539971500253F02 /* public_key.der in Resources */,
 				B8B734912537F497000B555F /* TakePhoneController.xib in Resources */,
+				B8C4A8712563A802007E7CF4 /* yue.jpg in Resources */,
 				B8E8418A24FF85DF00286848 /* Main.storyboard in Resources */,
 				B81D6170253981A400253F02 /* MutilTakePhViewController.xib in Resources */,
 			);
@@ -1266,6 +1319,7 @@
 				B81D618A253981D100253F02 /* ZBWAlbumView.m in Sources */,
 				B8E841F924FF862200286848 /* WMZDialog+PickView.m in Sources */,
 				B81D618F253981D100253F02 /* ZBWAlbumTableViewCell.m in Sources */,
+				B87BDE6A254037AB00565173 /* JiheController.m in Sources */,
 				B8E8422324FF863600286848 /* MASConstraintMaker.m in Sources */,
 				B8E841F524FF862200286848 /* WMZDialog+time.m in Sources */,
 				B8E841ED24FF862200286848 /* WMZDialog+AutoDisappear.m in Sources */,
@@ -1273,6 +1327,7 @@
 				B8E8422624FF863600286848 /* View+MASAdditions.m in Sources */,
 				B81D61DF2539935900253F02 /* PGGCryptoAES.m in Sources */,
 				B8E841EE24FF862200286848 /* WMZDialog+Down.m in Sources */,
+				B87BDE60254033FD00565173 /* DrawViewController.m in Sources */,
 				B8E8423024FF99B900286848 /* QLDialog.m in Sources */,
 				B8E8418724FF85DF00286848 /* ViewController.m in Sources */,
 				B8E841F424FF862200286848 /* CalanderModel.m in Sources */,
@@ -1315,6 +1370,7 @@
 				B8E8428A2500931C00286848 /* CustomVC.m in Sources */,
 				B8E842872500931C00286848 /* LoadingVC.m in Sources */,
 				B8E8420124FF862200286848 /* WMZDialog+Select.m in Sources */,
+				B87BDE6F25403AA500565173 /* JiheController_1.m in Sources */,
 				B8E841F324FF862200286848 /* WMZDialog+Calander.m in Sources */,
 				B8E8422224FF863600286848 /* MASCompositeConstraint.m in Sources */,
 				B81D61A82539857A00253F02 /* MHD_FingerPrintVerify.m in Sources */,
@@ -1340,6 +1396,7 @@
 				B8E8422824FF863600286848 /* MASViewConstraint.m in Sources */,
 				B8E8429F2500931C00286848 /* PickVC.m in Sources */,
 				B81D618D253981D100253F02 /* ZBWAlbumViewController.m in Sources */,
+				B87BDE642540364300565173 /* DrawBaseTableController.m in Sources */,
 				B8E842972500931C00286848 /* PopVC.m in Sources */,
 				B81D61DD2539935900253F02 /* PGGCryptoHMAC.m in Sources */,
 				B81D6190253981D100253F02 /* ZBWPhotosManager.m in Sources */,
@@ -1357,6 +1414,7 @@
 				B81D61DE2539935900253F02 /* GTMBase64.m in Sources */,
 				B8E842942500931C00286848 /* CollectionViewPopDemo.m in Sources */,
 				B8B7349E2537F8EC000B555F /* ASPopUpView.m in Sources */,
+				B87BDE7325403BC300565173 /* JIheOne_view.m in Sources */,
 				B8E8422124FF863600286848 /* ViewController+MASAdditions.m in Sources */,
 				B8E841EA24FF862200286848 /* WMZDialog+NaviMenu.m in Sources */,
 				B8E8429B2500931C00286848 /* ShareVC.m in Sources */,
