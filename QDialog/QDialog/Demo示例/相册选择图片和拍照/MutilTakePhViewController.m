@@ -8,6 +8,7 @@
 
 #import "MutilTakePhViewController.h"
 #import "ZBWPhotosManager.h"
+#import "PhotosTableViewController.h"
 @interface MutilTakePhViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic, strong) UICollectionView *albumCollectionView;
 
@@ -20,9 +21,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
  
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"选图" style:(UIBarButtonItemStyleDone) target:self action:@selector(opentt)];
     [self albumCollectionView];
 }
-
+-(void)opentt{
+    PhotosTableViewController *vc = [[PhotosTableViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (IBAction)choosePic:(id)sender {
     [ZBWPhotosManager showPhotosManager:self withMaxImageCount:5 withAlbumArray:^(NSMutableArray<ZBWPhotoModel *> * _Nonnull albumArray) {
         NSLog(@"%@",albumArray);
