@@ -9,6 +9,9 @@
 #import "MutilTakePhViewController.h"
 #import "ZBWPhotosManager.h"
 #import "PhotosTableViewController.h"
+#import "MWPhotoBrowser.h"
+
+
 @interface MutilTakePhViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic, strong) UICollectionView *albumCollectionView;
 
@@ -56,6 +59,34 @@
     
 }
 
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    NSMutableArray *arr = [NSMutableArray array];
+    for (ZBWPhotoModel *model in self.array) {
+        MWPhoto *photo = [[MWPhoto alloc]initWithImage:model.highDefinitionImage];
+        [arr addObject:photo];
+    }
+    MWPhotoBrowser *browser = [[MWPhotoBrowser alloc] initWithPhotos:arr];
+    browser.displayActionButton = YES;
+    browser.displayNavArrows = YES;
+    browser.displaySelectionButtons = YES;
+    browser.alwaysShowControls = YES;
+    browser.zoomPhotosToFill = YES;
+    browser.enableGrid = NO;
+    browser.startOnGrid = YES;
+    browser.enableSwipeToDismiss = NO;
+    browser.autoPlayOnAppear = NO;
+    [browser setCurrentPhotoIndex:indexPath.item];
+    
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:browser];
+    [nc.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:18],
+                                  NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    nc.modalPresentationStyle = UIModalPresentationFullScreen;
+    nc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentViewController:nc animated:YES completion:nil];
+
+
+    
+}
 
 - (UICollectionView *)albumCollectionView {
     if (!_albumCollectionView) {
